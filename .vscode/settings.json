@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "uart.h": "c",
+        "stdio.h": "c",
+        "watchdog.h": "c",
+        "stdlib.h": "c",
+        "tusb.h": "c",
+        "comms.h": "c",
+        "main.h": "c",
+        "mmc_sd.h": "c",
+        "dev_config.h": "c"
+    }
+}
