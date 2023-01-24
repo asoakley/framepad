@@ -612,6 +612,9 @@
 			"path" : "C:/Program Files/CMake/share/cmake-3.24/Modules/FindPackageMessage.cmake"
 		},
 		{
+			"path" : "examples/CMakeLists.txt"
+		},
+		{
 			"path" : "config/CMakeLists.txt"
 		},
 		{
@@ -619,9 +622,6 @@
 		},
 		{
 			"path" : "font/CMakeLists.txt"
-		},
-		{
-			"path" : "examples/CMakeLists.txt"
 		},
 		{
 			"path" : "fatfs/CMakeLists.txt"

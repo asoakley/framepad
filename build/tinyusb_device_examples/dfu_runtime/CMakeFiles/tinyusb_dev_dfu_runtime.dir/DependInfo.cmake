@@ -73,6 +73,14 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/examples"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/config"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/lcd"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/font"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/fatfs"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/sdcard"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/comms"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/usb"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/examples/device/dfu_runtime/src"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_stdlib/include"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_gpio/include"

@@ -50,7 +50,7 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_binary_info\include/pico/binary_info.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/defs.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_binary_info\include/pico/binary_info/structure.h \
@@ -86,8 +86,7 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp
  c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\machine\types.h \
  c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\sys\stdio.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/tusb_option.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/tusb_config.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
+ C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb/tusb_config.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_verify.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_types.h \
@@ -103,4 +102,7 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_fifo.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/osal/osal.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_fifo.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/device/usbd.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/class/hid/hid_device.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/class/hid/hid.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\board.h

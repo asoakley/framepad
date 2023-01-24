@@ -154,6 +154,9 @@ C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/pico-sdk/src/rp2040/hardware
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/pico-sdk/src/rp2040/hardware_structs/CMakeFiles/rebuild_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/examples.dir
+C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/edit_cache.dir
+C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/rebuild_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/config/CMakeFiles/config.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/config/CMakeFiles/edit_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/config/CMakeFiles/rebuild_cache.dir
@@ -163,9 +166,6 @@ C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/lcd/CMakeFiles/rebuild_cache
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/font/CMakeFiles/font.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/font/CMakeFiles/edit_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/font/CMakeFiles/rebuild_cache.dir
-C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/examples.dir
-C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/edit_cache.dir
-C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/CMakeFiles/rebuild_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/fatfs/CMakeFiles/fatfs.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/fatfs/CMakeFiles/edit_cache.dir
 C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/fatfs/CMakeFiles/rebuild_cache.dir

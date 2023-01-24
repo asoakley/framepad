@@ -8,6 +8,7 @@
         "comms.h": "c",
         "main.h": "c",
         "mmc_sd.h": "c",
-        "dev_config.h": "c"
+        "dev_config.h": "c",
+        "tusb_config.h": "c"
     }
 }

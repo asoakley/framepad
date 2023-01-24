@@ -58,10 +58,30 @@ include usb\CMakeFiles\usb.dir\progress.make
 # Include the compile flags for this target's objects.
 include usb\CMakeFiles\usb.dir\flags.make
 
+usb\CMakeFiles\usb.dir\usb_descriptors.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\usb_descriptors.c.obj: C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb\usb_descriptors.c
+usb\CMakeFiles\usb.dir\usb_descriptors.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb/CMakeFiles/usb.dir/usb_descriptors.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\usb_descriptors.c.obj -MF CMakeFiles\usb.dir\usb_descriptors.c.obj.d -o CMakeFiles\usb.dir\usb_descriptors.c.obj -c C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb\usb_descriptors.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\usb_descriptors.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/usb_descriptors.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb\usb_descriptors.c > CMakeFiles\usb.dir\usb_descriptors.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\usb_descriptors.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/usb_descriptors.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb\usb_descriptors.c -o CMakeFiles\usb.dir\usb_descriptors.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -81,7 +101,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -101,7 +121,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -121,7 +141,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -141,7 +161,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -161,7 +181,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -180,7 +200,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -196,7 +216,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/sem.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -216,7 +236,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -236,7 +256,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -256,7 +276,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -276,7 +296,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -296,7 +316,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -316,7 +336,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -336,7 +356,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -356,7 +376,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -376,7 +396,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -396,7 +416,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -415,7 +435,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -431,7 +451,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -451,7 +471,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -471,7 +491,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -491,7 +511,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -511,7 +531,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -531,7 +551,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -551,7 +571,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -570,7 +590,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -586,7 +606,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -605,7 +625,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_divider\divider.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_divider\divider.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -620,7 +640,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -636,7 +656,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -656,7 +676,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_math.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -675,7 +695,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -690,7 +710,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -705,7 +725,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -721,7 +741,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -741,7 +761,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_math.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -760,7 +780,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -776,7 +796,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -795,7 +815,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -810,7 +830,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -826,7 +846,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -846,7 +866,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -866,7 +886,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -886,7 +906,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -906,7 +926,7 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: usb\CMakeFiles\usb.dir\flags.make
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c
 usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_spi/spi.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -923,8 +943,409 @@ usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/device/usbd_control.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/class/video/video_device.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/tusb.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/tusb.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj: usb\CMakeFiles\usb.dir\flags.make
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj: usb\CMakeFiles\usb.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object usb/CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj -MF CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj.d -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c > CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/usb.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c -o CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
 # Object files for target usb
 usb_OBJECTS = \
+"CMakeFiles\usb.dir\usb_descriptors.c.obj" \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj" \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj" \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj" \
@@ -970,11 +1391,32 @@ usb_OBJECTS = \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj" \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj" \
 "CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj" \
-"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj"
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj" \
+"CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj"
 
 # External object files for target usb
 usb_EXTERNAL_OBJECTS =
 
+usb\libusb.a: usb\CMakeFiles\usb.dir\usb_descriptors.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
@@ -1021,9 +1463,29 @@ usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\s
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\tusb.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj
+usb\libusb.a: usb\CMakeFiles\usb.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\hw\bsp\rp2040\family.c.obj
 usb\libusb.a: usb\CMakeFiles\usb.dir\build.make
 usb\libusb.a: usb\CMakeFiles\usb.dir\link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CXX static library libusb.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Linking CXX static library libusb.a"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\usb
 	$(CMAKE_COMMAND) -P CMakeFiles\usb.dir\cmake_clean_target.cmake
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build

@@ -937,6 +937,21 @@
 					"source" : "C:/Users/austi/Desktop/Git_Repos/pico-sdk/docs"
 				},
 				{
+					"build" : "examples",
+					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
 					"build" : "config",
 					"jsonFile" : "directory-config-Debug-4da22e615810e948ed22.json",
 					"minimumCMakeVersion" : 
@@ -979,21 +994,6 @@
 					"targetIndexes" : 
 					[
 						11
-					]
-				},
-				{
-					"build" : "examples",
-					"jsonFile" : "directory-examples-Debug-2e8964349ffea94e1580.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.12"
-					},
-					"parentIndex" : 0,
-					"projectIndex" : 0,
-					"source" : "examples",
-					"targetIndexes" : 
-					[
-						9
 					]
 				},
 				{
@@ -1227,7 +1227,7 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 74,
+					"directoryIndex" : 75,
 					"id" : "config::@1ea838694151cac89012",
 					"jsonFile" : "target-config-Debug-279ee8cb445414455026.json",
 					"name" : "config",
@@ -1248,9 +1248,9 @@
 					"projectIndex" : 1
 				},
 				{
-					"directoryIndex" : 77,
+					"directoryIndex" : 74,
 					"id" : "examples::@714eac15f71a94114fdf",
-					"jsonFile" : "target-examples-Debug-2592cac35a1a187eee36.json",
+					"jsonFile" : "target-examples-Debug-a82638a1f668816c8d11.json",
 					"name" : "examples",
 					"projectIndex" : 0
 				},
@@ -1262,14 +1262,14 @@
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 76,
+					"directoryIndex" : 77,
 					"id" : "font::@6225a6ba04d1638bf281",
 					"jsonFile" : "target-font-Debug-f550f19b8a436eddd515.json",
 					"name" : "font",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 75,
+					"directoryIndex" : 76,
 					"id" : "lcd::@7e3a5f612d490599951d",
 					"jsonFile" : "target-lcd-Debug-bb3d53282a92753cf5cf.json",
 					"name" : "lcd",
@@ -1278,7 +1278,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "main::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-main-Debug-170df86a2bcc3eb7de1d.json",
+					"jsonFile" : "target-main-Debug-ca225d55518da890eb1d.json",
 					"name" : "main",
 					"projectIndex" : 0
 				},
@@ -1292,7 +1292,7 @@
 				{
 					"directoryIndex" : 81,
 					"id" : "usb::@a59a7809898e66d04560",
-					"jsonFile" : "target-usb-Debug-96f536f39cbab7aa66fa.json",
+					"jsonFile" : "target-usb-Debug-d150c5a669704604d581.json",
 					"name" : "usb",
 					"projectIndex" : 0
 				}
