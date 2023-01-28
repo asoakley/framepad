@@ -9,6 +9,10 @@
         "main.h": "c",
         "mmc_sd.h": "c",
         "dev_config.h": "c",
-        "tusb_config.h": "c"
+        "tusb_config.h": "c",
+        "usb_descriptors.h": "c",
+        "tusb_common.h": "c",
+        "tusb_option.h": "c",
+        "lcd_touch.h": "c"
     }
 }

@@ -24,7 +24,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -63,7 +63,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -103,7 +103,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -143,7 +143,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -207,7 +207,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -252,7 +252,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -289,7 +289,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -364,7 +364,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -409,7 +409,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -448,7 +448,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -482,7 +482,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -538,7 +538,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -582,7 +582,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -627,7 +627,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -669,7 +669,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\spi.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -716,7 +716,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -751,7 +751,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -792,7 +792,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -837,7 +837,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -894,7 +894,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -930,7 +930,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -970,7 +970,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1013,7 +1013,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1088,7 +1088,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1176,7 +1176,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1208,7 +1208,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1269,7 +1269,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\error.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\lib\gcc\arm-none-eabi\11.2.1\include\float.h"
@@ -1316,7 +1316,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1373,7 +1373,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1457,7 +1457,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1506,7 +1506,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\stdio_uart.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1559,7 +1559,7 @@ lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1622,7 +1622,7 @@ lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain 
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\LCD_Bmp.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1706,7 +1706,7 @@ lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: "C:\Program Files (x86)\Arm GNU Toolcha
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1785,7 +1785,7 @@ lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: "C:\Program Files (x86)\Arm GNU Toolchain 
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\LCD_GUI.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1864,7 +1864,7 @@ lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: "C:\Program Files (x86)\Arm GNU Toolchai
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: generated\pico_base\pico\version.h
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: generated\pico_base\pico\config_autogen.h
-lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h
+lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\cmsis\include\cmsis\rename_exceptions.h
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include\pico\platform.h
 lcd\CMakeFiles\lcd.dir\LCD_Touch.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include\hardware\platform_defs.h
@@ -1956,8 +1956,6 @@ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\asse
 
 C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\include\hardware\timer.h:
 
-C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico_w.h:
-
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\arm-none-eabi\include\_ansi.h":
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\arm-none-eabi\include\newlib.h":
@@ -1997,6 +1995,8 @@ generated\pico_base\pico\config_autogen.h:
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\lib\gcc\arm-none-eabi\11.2.1\include\stddef.h":
 
 C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include\pico\config.h:
+
+C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\boards\include\boards\pico.h:
 
 "C:\Program Files (x86)\Arm GNU Toolchain arm-none-eabi\11.2 2022.02\arm-none-eabi\include\machine\endian.h":
 

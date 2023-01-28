@@ -23,6 +23,7 @@
  *
  */
 
+#include "tusb_config.h"
 #include "tusb.h"
 #include "usb_descriptors.h"
 

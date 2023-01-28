@@ -57,7 +57,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
   "LIB_PICO_UTIL=1"
   "LIB_TINYUSB_BOARD=1"
   "LIB_TINYUSB_DEVICE=1"
-  "PICO_BOARD=\"pico_w\""
+  "PICO_BOARD=\"pico\""
   "PICO_BUILD=1"
   "PICO_CMAKE_BUILD_TYPE=\"Debug\""
   "PICO_COPY_TO_RAM=0"
@@ -71,6 +71,7 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/usb/../config"
+  "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/usb"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_stdlib/include"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_gpio/include"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_base/include"

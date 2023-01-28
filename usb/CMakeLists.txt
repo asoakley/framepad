@@ -2,6 +2,8 @@ aux_source_directory(. DIR_USB_SRCS)
 
 include_directories(../config)
 
+include_directories(${CMAKE_CURRENT_LIST_DIR})
+
 add_library(usb ${DIR_USB_SRCS})
 
 target_link_libraries(usb PUBLIC config tinyusb_device tinyusb_board)

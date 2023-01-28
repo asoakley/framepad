@@ -23,7 +23,7 @@ CMakeFiles\main.dir\main.c.obj: \
  C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/version.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/config.h \
  C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/config_autogen.h \
- C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico_w.h \
+ C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico.h \
  C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
@@ -52,7 +52,7 @@ CMakeFiles\main.dir\main.c.obj: \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/uart.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/uart.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/dreq.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_uart\include/pico/stdio_uart.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_spi\include/hardware/spi.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/spi.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/spi.h \

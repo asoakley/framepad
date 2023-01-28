@@ -40,24 +40,7 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pic
  c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\machine\types.h \
  c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\sys\stdio.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/tusb_option.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/tusb_config.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio_usb\include/pico/stdio_usb.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdio\include/pico/stdio.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/types.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/assert.h \
- c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\assert.h \
- C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/version.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/config.h \
- C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/config_autogen.h \
- C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico_w.h \
- C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/addressmap.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/sio.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/types.h \
- C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/error.h \
+ C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\usb/tusb_config.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_compiler.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_verify.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_types.h \
@@ -67,6 +50,21 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pic
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_common.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/osal/osal_pico.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\include/pico/time.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/types.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/assert.h \
+ c:\progra~2\armgnu~1\112202~1.02\arm-none-eabi\include\assert.h \
+ C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/version.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/config.h \
+ C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/config_autogen.h \
+ C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico.h \
+ C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/addressmap.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/regs/sio.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/types.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/error.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\include/hardware/timer.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_structs\include/hardware/structs/timer.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_base\include/hardware/address_mapped.h \
@@ -79,4 +77,7 @@ CMakeFiles\main.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pic
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_fifo.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/osal/osal.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/common/tusb_fifo.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/device/usbd.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/class/hid/hid_device.h \
+ C:\Users\austi\Desktop\Git_Repos\pico-sdk\lib\tinyusb\src/class/hid/hid.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\include/pico/bootrom.h

@@ -23,7 +23,7 @@ lcd\CMakeFiles\lcd.dir\LCD_Driver.c.obj: \
  C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/version.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_base\include/pico/config.h \
  C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\generated\pico_base/pico/config_autogen.h \
- C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico_w.h \
+ C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/include/boards/pico.h \
  C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \
  C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2040\hardware_regs\include/hardware/platform_defs.h \

@@ -65,7 +65,6 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/CMakeLists.txt"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/board_setup.cmake"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/generic_board.cmake"
-  "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/boards/pico_w.cmake"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/CMakeLists.txt"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/boot_picoboot/CMakeLists.txt"
   "C:/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/boot_uf2/CMakeLists.txt"

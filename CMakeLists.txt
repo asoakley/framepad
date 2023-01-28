@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.12)
 
-set(PICO_BOARD pico_w)
+set(PICO_BOARD pico)
 
 include(pico_sdk_import.cmake)
 project(Pico-ResTouch-X_X_code)
@@ -28,9 +28,11 @@ add_executable(main
 main.c
 )
 
+target_include_directories(main PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+
 # enable usb output, disable uart output
-pico_enable_stdio_usb(main 0)
-pico_enable_stdio_uart(main 1)
+pico_enable_stdio_usb(main 1)
+pico_enable_stdio_uart(main 0)
 
 # create map/bin/hex/uf2 file etc.
 pico_add_extra_outputs(main)
