@@ -118,30 +118,10 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -156,6 +136,26 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_platform/platform.c.s"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_claim/claim.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj: comms\CMakeFiles\comms.dir\flags.make
@@ -253,130 +253,10 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -396,7 +276,7 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -411,6 +291,126 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_sync/critical_section.c.s"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/time.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_time/timeout_helper.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_timer/timer.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/datetime.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/pheap.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/common/pico_util/queue.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj: comms\CMakeFiles\comms.dir\flags.make
@@ -433,45 +433,10 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building ASM object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
-	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: comms\CMakeFiles\comms.dir\flags.make
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
-comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
-	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
-	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
-
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -491,7 +456,7 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -511,7 +476,7 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -531,7 +496,7 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -551,7 +516,7 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: comms\CMakeFiles\comms.dir\flags.make
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
@@ -566,6 +531,41 @@ comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_com
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
 	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.s
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building ASM object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing ASM source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.i"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_PREPROCESSED_SOURCE
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling ASM source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/hardware_divider/divider.S.s"
+	$(CMAKE_COMMAND) -E cmake_unimplemented_variable CMAKE_ASM_CREATE_ASSEMBLY_SOURCE
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: comms\CMakeFiles\comms.dir\flags.make
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj: comms\CMakeFiles\comms.dir\compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object comms/CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -MF CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c > CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.i
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
+
+comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/comms.dir/C_/Users/austi/Desktop/Git_Repos/pico-sdk/src/rp2_common/pico_runtime/runtime.c.s"
+	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\comms
+	C:\PROGRA~2\ARMGNU~1\112202~1.02\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c -o CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.s
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
 comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj: comms\CMakeFiles\comms.dir\flags.make
@@ -948,29 +948,29 @@ comms_OBJECTS = \
 "CMakeFiles\comms.dir\comms.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj" \
-"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj" \
+"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj" \
+"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj" \
+"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj" \
-"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj" \
-"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj" \
-"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj" \
-"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj" \
+"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj" \
+"CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj" \
 "CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj" \
@@ -999,29 +999,29 @@ comms_EXTERNAL_OBJECTS =
 comms\libcomms.a: comms\CMakeFiles\comms.dir\comms.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj
-comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_platform\platform.c.obj
+comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\sem.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\lock_core.c.obj
+comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj
+comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\time.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_time\timeout_helper.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\datetime.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\pheap.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_util\queue.c.obj
-comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\mutex.c.obj
-comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\common\pico_sync\critical_section.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj
-comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
-comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj
+comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj
+comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_printf\printf.c.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj
 comms\libcomms.a: comms\CMakeFiles\comms.dir\C_\Users\austi\Desktop\Git_Repos\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj

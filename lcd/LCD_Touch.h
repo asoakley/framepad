@@ -19,8 +19,8 @@
 #include "LCD_GUI.h"
 #include <math.h>
 #include <stdio.h>
-#include "pico/stdlib.h"
-#include "pico/float.h"
+#include "stdlib.h"
+#include "float.h"
 
 #define TP_PRESS_DOWN 0x80
 #define TP_PRESSED 0x40

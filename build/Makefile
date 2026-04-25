@@ -171,19 +171,6 @@ bs2_default_padded_checksummed_asm\fast:
 .PHONY : bs2_default_padded_checksummed_asm\fast
 
 #=============================================================================
-# Target rules for targets named cyw43_firmware_package
-
-# Build rule for target.
-cyw43_firmware_package: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) cyw43_firmware_package
-.PHONY : cyw43_firmware_package
-
-# fast build rule for target.
-cyw43_firmware_package\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\cyw43_firmware_package.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\cyw43_firmware_package.dir\build
-.PHONY : cyw43_firmware_package\fast
-
-#=============================================================================
 # Target rules for targets named PioasmBuild
 
 # Build rule for target.
@@ -193,7 +180,7 @@ PioasmBuild: cmake_check_build_system
 
 # fast build rule for target.
 PioasmBuild\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\PioasmBuild.dir\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\PioasmBuild.dir\build
 .PHONY : PioasmBuild\fast
 
 #=============================================================================
@@ -206,7 +193,7 @@ cyw43_driver_picow_cyw43_bus_pio_spi_pio_h: cmake_check_build_system
 
 # fast build rule for target.
 cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast:
-	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
+	$(MAKE) $(MAKESILENT) -f pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build.make /nologo -$(MAKEFLAGS) pico-sdk\src\rp2_common\pico_cyw43_driver\CMakeFiles\cyw43_driver_picow_cyw43_bus_pio_spi_pio_h.dir\build
 .PHONY : cyw43_driver_picow_cyw43_bus_pio_spi_pio_h\fast
 
 #=============================================================================
@@ -1854,7 +1841,6 @@ help:
 	@echo ... bs2_default_bin
 	@echo ... bs2_default_padded_checksummed_asm
 	@echo ... cyw43_driver_picow_cyw43_bus_pio_spi_pio_h
-	@echo ... cyw43_firmware_package
 	@echo ... bs2_default
 	@echo ... comms
 	@echo ... config

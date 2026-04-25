@@ -35,6 +35,7 @@ static uint32_t blink_interval_ms = BLINK_NOT_MOUNTED;
 
 void led_blinking_task(void);
 void hid_task(void);
+void sleep_task(void);
 
 int main(void)
 {
@@ -47,19 +48,6 @@ int main(void)
   LCD_SCAN_DIR lcd_scan_dir = SCAN_DIR_DFT;
   LCD_Init(lcd_scan_dir, 800);
   TP_Init(lcd_scan_dir);
-  GUI_Show();
-  Driver_Delay_ms(2000);
-  GUI_Clear(0xf800);
-  Driver_Delay_ms(1000);
-  GUI_Clear(0x07e0);
-  Driver_Delay_ms(1000);
-  GUI_Clear(0x001f);
-  Driver_Delay_ms(1000);
-  LCD_SCAN_DIR bmp_scan_dir = D2U_R2L;
-  LCD_Show_bmp(bmp_scan_dir, lcd_scan_dir);
-  TP_GetAdFac();
-  TP_Dialog();
-
   tusb_init();
 
   while (1)
@@ -70,7 +58,20 @@ int main(void)
     led_blinking_task();
 
     hid_task();
+
+    sleep_task();
   }
+}
+
+void sleep_task(void)
+{
+  static bool gb_backlightState = true;
+  static uint32_t start_ms = 0;
+
+  // Blink every interval ms
+  if (board_millis() - start_ms < 1000)
+    return; // not enough time
+  start_ms += blink_interval_ms;
 }
 
 /*
@@ -166,17 +167,17 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
 
   case REPORT_ID_MOUSE:
   {
-    // int8_t const delta = 5;
+    int8_t const delta = 0;
 
     // no button, right + down, no scroll, no pan
-    // tud_hid_mouse_report(REPORT_ID_MOUSE, 0x00, delta, delta, 0, 0);
+    tud_hid_mouse_report(REPORT_ID_MOUSE, 0x00, delta, delta, 0, 0);
   }
   break;
 
   case REPORT_ID_CONSUMER_CONTROL:
   {
     // use to avoid send multiple consecutive zero report
-    /*static bool has_consumer_key = false;
+    static bool has_consumer_key = false;
 
     if (btn)
     {
@@ -193,13 +194,11 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
         tud_hid_report(REPORT_ID_CONSUMER_CONTROL, &empty_key, 2);
       has_consumer_key = false;
     }
-    */
   }
   break;
 
   case REPORT_ID_GAMEPAD:
   {
-    /**/
     // use to avoid send multiple consecutive zero report for keyboard
     static bool has_gamepad_key = false;
 
@@ -223,7 +222,6 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
         tud_hid_report(REPORT_ID_GAMEPAD, &report, sizeof(report));
       has_gamepad_key = false;
     }
-    * /
   }
   break;
 
@@ -245,10 +243,11 @@ void hid_task(void)
   start_ms += interval_ms;
 
   // uint32_t const btn = board_button_read();
-  tpInputs =
-
-      // Remote wakeup
-      if (tud_suspended() && TP_Scan(0))
+  // For now, testing with the touch gpio. Need a way to detect touching at a specific area on the screen. This requires us to look at the ADC readings.
+  // Need a separate ADC task. The readings must be fresh first before we do anything.
+  uint32_t btn = (uint32_t)(DEV_Digital_Read(TP_IRQ_PIN) == false);
+  // Remote wakeup
+  if (tud_suspended() && btn)
   {
     // Wake up host if we are in suspend mode
     // and REMOTE_WAKEUP feature is enabled by host
@@ -264,17 +263,18 @@ void hid_task(void)
 // Invoked when sent REPORT successfully to host
 // Application can use this to send the next report
 // Note: For composite reports, report[0] is report ID
-void tud_hid_report_complete_cb(uint8_t instance, uint8_t const *report, uint8_t len)
+void tud_hid_report_complete_cb(uint8_t instance, uint8_t const *report, uint16_t len)
 {
   (void)instance;
   (void)len;
 
   uint8_t next_report_id = report[0] + 1;
-
-  if (next_report_id < REPORT_ID_COUNT)
-  {
-    send_hid_report(next_report_id, board_button_read());
-  }
+  /*
+    if (next_report_id < REPORT_ID_COUNT)
+    {
+      send_hid_report(next_report_id, board_button_read());
+    }
+    */
 }
 
 // Invoked when received GET_REPORT control request

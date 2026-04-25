@@ -80,7 +80,7 @@ elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure: elf2uf2\tmp\ELF2UF2Build-
 elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-configure: elf2uf2\src\ELF2UF2Build-stamp\ELF2UF2Build-patch
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Performing configure step for 'ELF2UF2Build'"
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build\elf2uf2
-	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" "-GNMake Makefiles" C:/Users/austi/Desktop/Git_Repos/pico-sdk/tools/elf2uf2
+	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MAKE_PROGRAM:FILEPATH=nmake "-GNMake Makefiles" C:/Users/austi/Desktop/Git_Repos/pico-sdk/tools/elf2uf2
 	echo >nul && "C:\Program Files\CMake\bin\cmake.exe" -E touch C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 	cd C:\Users\austi\Desktop\Git_Repos\XPT2046-pico\build
 
