@@ -40,6 +40,9 @@ include_directories(usb)
 
 add_executable(main 
 main.c
+HIDTask.c
+LEDTask.c
+SleepTask.c
 )
 
 target_include_directories(main PRIVATE ${CMAKE_CURRENT_LIST_DIR})

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/austi/Desktop/Git_Repos/XPT2046-pico
+# Install script for directory: C:/Users/austi/Desktop/Git_Repos/pico_streamdeck
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,22 +39,22 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/pico-sdk/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/examples/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/config/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/lcd/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/font/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/fatfs/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/sdcard/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/comms/cmake_install.cmake")
-  include("C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/usb/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/examples/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/config/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/lcd/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/font/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/fatfs/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/sdcard/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/comms/cmake_install.cmake")
+  include("C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/usb/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,6 +70,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/austi/Desktop/Git_Repos/XPT2046-pico/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/austi/Desktop/Git_Repos/pico_streamdeck/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
