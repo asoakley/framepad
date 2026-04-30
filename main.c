@@ -18,6 +18,9 @@
 #include "HIDTask.h"
 #include "LEDTask.h"
 #include "SleepTask.h"
+#include "TouchTask.h"
+#include "LCDTask.h"
+#include "StreamDeck.h"
 
 //--------------------------------------------------------------------+
 // MACRO CONSTANT TYPEDEF PROTYPES
@@ -30,6 +33,8 @@ int main(void)
   board_init();
 
   SD_Init();
+
+  stream_deck_init();
 
   LCD_SCAN_DIR lcd_scan_dir = SCAN_DIR_DFT;
   LCD_Init(lcd_scan_dir, 800);

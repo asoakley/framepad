@@ -4,6 +4,7 @@
 #include "usb_descriptors.h"
 #include "DEV_Config.h"
 #include "LEDTask.h"
+#include <string.h>
 
 // Delay in milliseconds before sending prompt after Win+R
 #define WIN_R_DIALOG_DELAY_MS 500
@@ -12,13 +13,69 @@ static hid_state_t hid_state = HID_STATE_IDLE;
 static bool last_btn = false;
 static size_t prompt_index = 0;
 static uint32_t delay_start_ms = 0;
+static char current_command[MAX_COMMAND_LENGTH] = "cmd";
+static key_press_t *current_key_sequence = NULL;
+static size_t current_sequence_length = 0;
 
-// Configurable prompt - change this array for different commands
-const key_press_t open_cmd_prompt[] = {
-    {0, HID_KEY_C},
-    {0, HID_KEY_M},
-    {0, HID_KEY_D}};
-#define PROMPT_LENGTH (sizeof(open_cmd_prompt) / sizeof(open_cmd_prompt[0]))
+// Function to convert string to key presses (simple implementation for alphanumeric)
+key_press_t *string_to_key_sequence(const char *str, size_t *length)
+{
+    static key_press_t sequence[MAX_COMMAND_LENGTH];
+    *length = 0;
+
+    for (size_t i = 0; str[i] && *length < MAX_COMMAND_LENGTH; i++)
+    {
+        char c = str[i];
+        uint8_t keycode = 0;
+
+        if (c >= 'a' && c <= 'z')
+        {
+            keycode = HID_KEY_A + (c - 'a');
+        }
+        else if (c >= 'A' && c <= 'Z')
+        {
+            keycode = HID_KEY_A + (c - 'A');
+            sequence[*length].modifier = KEYBOARD_MODIFIER_LEFTSHIFT;
+        }
+        else if (c >= '1' && c <= '9')
+        {
+            keycode = HID_KEY_1 + (c - '1');
+        }
+        else if (c == '0')
+        {
+            keycode = HID_KEY_0;
+        }
+        else
+        {
+            // Skip unsupported characters for now
+            continue;
+        }
+
+        sequence[*length].modifier = (c >= 'A' && c <= 'Z') ? KEYBOARD_MODIFIER_LEFTSHIFT : 0;
+        sequence[*length].keycode = keycode;
+        (*length)++;
+    }
+
+    return sequence;
+}
+
+void hid_send_command(const char *command)
+{
+    if (strlen(command) >= MAX_COMMAND_LENGTH)
+        return;
+
+    strcpy(current_command, command);
+    current_key_sequence = string_to_key_sequence(command, &current_sequence_length);
+    prompt_index = 0;
+
+    // Trigger sending Win+R
+    if (hid_state == HID_STATE_IDLE)
+    {
+        uint8_t keycode[6] = {HID_KEY_GUI_LEFT, HID_KEY_R, 0, 0, 0, 0};
+        tud_hid_keyboard_report(REPORT_ID_KEYBOARD, 0, keycode);
+        hid_state = HID_STATE_SENT_WIN_R;
+    }
+}
 
 static void send_hid_report(uint8_t report_id, uint32_t btn)
 {
@@ -148,10 +205,10 @@ void hid_task(void)
         if (elapsed >= WIN_R_DIALOG_DELAY_MS && tud_hid_ready())
         {
             // Send first prompt character
-            if (prompt_index < PROMPT_LENGTH)
+            if (prompt_index < current_sequence_length)
             {
-                uint8_t keycode[6] = {open_cmd_prompt[prompt_index].keycode, 0, 0, 0, 0, 0};
-                tud_hid_keyboard_report(REPORT_ID_KEYBOARD, open_cmd_prompt[prompt_index].modifier, keycode);
+                uint8_t keycode[6] = {current_key_sequence[prompt_index].keycode, 0, 0, 0, 0, 0};
+                tud_hid_keyboard_report(REPORT_ID_KEYBOARD, current_key_sequence[prompt_index].modifier, keycode);
                 hid_state = HID_STATE_SENT_PROMPT_KEY;
             }
             else
@@ -203,10 +260,10 @@ void tud_hid_report_complete_cb(uint8_t instance, uint8_t const *report, uint16_
 
     case HID_STATE_SENT_EMPTY_PROMPT:
         prompt_index++;
-        if (prompt_index < PROMPT_LENGTH)
+        if (prompt_index < current_sequence_length)
         {
-            uint8_t keycode[6] = {open_cmd_prompt[prompt_index].keycode, 0, 0, 0, 0, 0};
-            tud_hid_keyboard_report(REPORT_ID_KEYBOARD, open_cmd_prompt[prompt_index].modifier, keycode);
+            uint8_t keycode[6] = {current_key_sequence[prompt_index].keycode, 0, 0, 0, 0, 0};
+            tud_hid_keyboard_report(REPORT_ID_KEYBOARD, current_key_sequence[prompt_index].modifier, keycode);
             hid_state = HID_STATE_SENT_PROMPT_KEY;
         }
         else

@@ -4,6 +4,8 @@
 #include <stdint.h>
 #include "tusb.h"
 
+#define MAX_COMMAND_LENGTH 64
+
 typedef enum
 {
     HID_STATE_IDLE,
@@ -24,6 +26,7 @@ typedef struct
 } key_press_t;
 
 void hid_task(void);
+void hid_send_command(const char *command);
 
 void tud_hid_report_complete_cb(uint8_t instance, uint8_t const *report, uint16_t len);
 

@@ -1,5 +1,5 @@
 At a high and basic level, I want this project to be able to:
-- Display icons for different actions on the LCD (spotify, steam, epic games, file explorer) in a 2x6 grid.
+- Display icons for different actions on the LCD (spotify, steam, epic games, file explorer) in a 2x3 grid.
 - Perform keystroke commands to the PC based on which image is pressed (you've already created a baseline for this with "Win+R" followed by "cmd")
     - This means the device must:
     - Read the location that was pressed
@@ -7,9 +7,7 @@ At a high and basic level, I want this project to be able to:
 - Allow the icons and their associated actions be dynamic based on SD card content 
 (i.e read in a JSON file or the like that tells the LCD what images to display and where they go,
 and what their associated keystroke commands are after Win+R)
-- Put the device to sleep whenever the USB connection is suspended.
 - Blink the board LED (which it already does) based on connection status
-
 
 Now that the hid part of this project is running sending keypresses to the pc in order to use 
 Win+R to run programs, implement the following more specifically:
@@ -20,3 +18,8 @@ Win+R to run programs, implement the following more specifically:
     According to google, For Raspberry Pi Pico projects, the best image format for reading/displaying images is generally raw binary (.raw, .bin) format, formatted as RGB565 or RGB332.
 - Capturing ADC readings. I believe the existing driver polls the interrupt pin, which is good. 
 Try to use the existing driver to do this. Map the location of the ADC press to the right icon/command combo.
+
+Try to follow the existing code structure. 
+If necessary, create a separate "task" for the adc readings, and for the LCD updating. 
+Try to avoid long blocking for good responsiveness.
+Only read the SD card and configure the grid once at power up.

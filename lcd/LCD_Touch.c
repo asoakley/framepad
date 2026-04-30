@@ -15,9 +15,9 @@
 
 extern LCD_DIS sLCD_DIS;
 extern uint8_t id;
-static TP_DEV sTP_DEV;
-static TP_DRAW sTP_Draw;
-static stream_deck_inputs_union_t tpInputs = {0};
+TP_DEV sTP_DEV;
+TP_DRAW sTP_Draw;
+stream_deck_inputs_union_t tpInputs = {0};
 
 /*******************************************************************************
 function:

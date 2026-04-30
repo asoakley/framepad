@@ -66,6 +66,10 @@ typedef union
 	} bits;
 } stream_deck_inputs_union_t;
 
+extern TP_DEV sTP_DEV;
+extern TP_DRAW sTP_Draw;
+extern stream_deck_inputs_union_t tpInputs;
+
 uint8_t TP_Scan(uint8_t chCoordType);
 void TP_GetAdFac(void);
 void TP_Adjust(void);

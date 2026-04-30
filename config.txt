@@ -1,0 +1,6 @@
+spotify.bin spotify
+steam.bin steam
+epicgames.bin epicgames
+explorer.bin explorer
+chrome.bin chrome
+vscode.bin code
