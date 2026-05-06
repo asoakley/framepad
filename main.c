@@ -34,11 +34,11 @@ int main(void)
 
   SD_Init();
 
-  stream_deck_init();
-
   LCD_SCAN_DIR lcd_scan_dir = SCAN_DIR_DFT;
   LCD_Init(lcd_scan_dir, 800);
   TP_Init(lcd_scan_dir);
+
+  stream_deck_init();
 
   tusb_init();
 

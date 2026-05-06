@@ -61,7 +61,7 @@ key_press_t *string_to_key_sequence(const char *str, size_t *length)
 
 void hid_send_command(const char *command)
 {
-    if (strlen(command) >= MAX_COMMAND_LENGTH)
+    if (!command || strlen(command) == 0 || strlen(command) >= MAX_COMMAND_LENGTH)
         return;
 
     strcpy(current_command, command);
@@ -187,16 +187,8 @@ void hid_task(void)
         return; // not enough time
     start_ms += interval_ms;
 
-    bool btn_pressed = (DEV_Digital_Read(TP_IRQ_PIN) == false);
-
-    if (btn_pressed && !last_btn && hid_state == HID_STATE_IDLE)
-    {
-        // Send Win+R
-        uint8_t keycode[6] = {HID_KEY_GUI_LEFT, HID_KEY_R, 0, 0, 0, 0};
-        tud_hid_keyboard_report(REPORT_ID_KEYBOARD, 0, keycode);
-        hid_state = HID_STATE_SENT_WIN_R;
-        prompt_index = 0;
-    }
+    // The HID task only handles the command send state machine.
+    // Touch input is processed separately by stream_deck_handle_touch().
 
     // Check if we should start sending the prompt after the delay
     if (hid_state == HID_STATE_WAITING_FOR_RUN_DIALOG)
@@ -220,10 +212,10 @@ void hid_task(void)
         }
     }
 
-    last_btn = btn_pressed;
+    last_btn = (DEV_Digital_Read(TP_IRQ_PIN) == false);
 
     // Remote wakeup
-    if (tud_suspended() && btn_pressed)
+    if (tud_suspended() && last_btn)
     {
         // Wake up host if we are in suspend mode
         // and REMOTE_WAKEUP feature is enabled by host
