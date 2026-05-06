@@ -64,6 +64,9 @@ void stream_deck_load_config(void)
 // Function to load and display raw binary image (RGB565)
 void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t width, uint16_t height)
 {
+
+    // see https://longfangsong.github.io/en/image-to-rgb565/
+
     FIL image_file;
     FRESULT res;
     UINT bytes_read;
@@ -98,6 +101,7 @@ void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t wi
     LCD_SetWindow(x, y, x + width - 1, y + height - 1);
     for (uint32_t i = 0; i < width * height; i++)
     {
+        // Little-endian RGB565 in file
         LCD_WriteData(buffer[i]);
     }
 
