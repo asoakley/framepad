@@ -70,7 +70,9 @@ void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t wi
     FIL image_file;
     FRESULT res;
     UINT bytes_read;
-    uint16_t *buffer = (uint16_t *)malloc(width * height * 2); // RGB565 is 2 bytes per pixel
+    const size_t base_size = width * height;
+    const size_t image_size = base_size * 2;           // RGB565 is 2 bytes per pixel
+    uint16_t *buffer = (uint16_t *)malloc(image_size); // RGB565 is 2 bytes per pixel
 
     if (!buffer)
     {
@@ -86,8 +88,8 @@ void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t wi
         return;
     }
 
-    res = f_read(&image_file, buffer, width * height * 2, &bytes_read);
-    if (res != FR_OK || bytes_read != width * height * 2)
+    res = f_read(&image_file, buffer, image_size, &bytes_read);
+    if (res != FR_OK || bytes_read != image_size)
     {
         printf("Failed to read image data\n");
         f_close(&image_file);
@@ -97,12 +99,15 @@ void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t wi
 
     f_close(&image_file);
 
-    // Display the image
-    LCD_SetWindow(x, y, x + width - 1, y + height - 1);
-    for (uint32_t i = 0; i < width * height; i++)
+    // Display the image row by row
+    for (uint16_t row = 0; row < height; row++)
     {
-        // Little-endian RGB565 in file
-        LCD_WriteData(buffer[i]);
+        LCD_SetWindow(x, y + row, x + width - 1, y + row);
+        for (uint16_t col = 0; col < width; col++)
+        {
+            uint32_t idx = row * width + col;
+            LCD_WriteData(buffer[idx]);
+        }
     }
 
     free(buffer);
@@ -110,6 +115,9 @@ void display_raw_image(const char *filename, uint16_t x, uint16_t y, uint16_t wi
 
 void stream_deck_draw_grid(void)
 {
+    // Set the background color
+    LCD_Clear(BLACK);
+
     for (uint8_t i = 0; i < stream_deck_config.num_icons; i++)
     {
         if (stream_deck_config.icons[i].active)
