@@ -40,7 +40,10 @@ include_directories(usb)
 include_directories(.)
 
 add_executable(main 
-main.c
+app/main.cpp
+app/FramepadApp.cpp
+app/DeviceState.cpp
+app/UsbCallbacks.cpp
 HIDTask.c
 LEDTask.c
 SleepTask.c
@@ -49,7 +52,10 @@ LCDTask.c
 StreamDeck.c
 )
 
-target_include_directories(main PRIVATE ${CMAKE_CURRENT_LIST_DIR})
+target_include_directories(main PRIVATE
+    ${CMAKE_CURRENT_LIST_DIR}
+    ${CMAKE_CURRENT_LIST_DIR}/app
+)
 
 # enable usb output, disable uart output
 pico_enable_stdio_usb(main 1)
