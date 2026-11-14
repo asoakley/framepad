@@ -79,7 +79,13 @@ void LCD_SetGramScanWay(LCD_SCAN_DIR Scan_dir);
 
 void LCD_WriteReg(uint8_t Reg);
 void LCD_WriteData(uint16_t Data);
+// The 3.5-inch path sends RGB565 MSB-first and restores the shared SPI bus to 8-bit mode.
 void LCD_WritePixels(const uint16_t *Pixels, uint32_t PixelCount);
+void LCD_InitPixelDMA(void);
+// Returns true for DMA, false for the synchronous 2.8-inch path.
+// The buffer and SPI bus must not be used until LCD_PixelDMAComplete returns true.
+bool LCD_WritePixelsDMA(const uint16_t *Pixels, uint32_t PixelCount);
+bool LCD_PixelDMAComplete(void);
 void LCD_SetWindow(POINT Xstart, POINT Ystart, POINT Xend, POINT Yend);
 void LCD_SetCursor(POINT Xpoint, POINT Ypoint);
 void LCD_SetColor(COLOR Color ,POINT Xpoint, POINT Ypoint);

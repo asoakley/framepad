@@ -14,9 +14,13 @@
 
 /**************************Intermediate driver layer**************************/
 #include "LCD_Driver.h"
+#include "hardware/dma.h"
 
 LCD_DIS sLCD_DIS;
 uint8_t id;
+static int pixel_dma_channel = -1;
+static bool pixel_dma_active = false;
+static absolute_time_t pixel_dma_deadline;
 /*******************************************************************************
 function:
 	Hardware reset
@@ -69,21 +73,88 @@ void LCD_WritePixels(const uint16_t *Pixels, uint32_t PixelCount)
     if (Pixels == NULL || PixelCount == 0)
         return;
 
+    if (LCD_2_8 != id)
+        spi_set_format(SPI_PORT, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+
     DEV_Digital_Write(LCD_DC_PIN, 1);
     DEV_Digital_Write(LCD_CS_PIN, 0);
-    for (uint32_t i = 0; i < PixelCount; i++)
+    if (LCD_2_8 == id)
     {
-        if (LCD_2_8 == id)
-        {
+        for (uint32_t i = 0; i < PixelCount; i++)
             SPI4W_Write_Byte((uint8_t)Pixels[i]);
-        }
-        else
-        {
-            SPI4W_Write_Byte(Pixels[i] >> 8);
-            SPI4W_Write_Byte(Pixels[i] & 0xFF);
-        }
     }
+    else
+    {
+        spi_write16_blocking(SPI_PORT, Pixels, PixelCount);
+    }
+
     DEV_Digital_Write(LCD_CS_PIN, 1);
+    if (LCD_2_8 != id)
+        spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+}
+
+void LCD_InitPixelDMA(void)
+{
+    if (LCD_2_8 == id)
+        return;
+
+    pixel_dma_channel = dma_claim_unused_channel(false);
+    if (pixel_dma_channel < 0)
+        panic("No DMA channel available for LCD");
+}
+
+bool LCD_WritePixelsDMA(const uint16_t *Pixels, uint32_t PixelCount)
+{
+    if (Pixels == NULL || PixelCount == 0 || pixel_dma_active)
+        panic("Invalid LCD DMA transfer");
+
+    if (LCD_2_8 == id)
+    {
+        LCD_WritePixels(Pixels, PixelCount);
+        return false;
+    }
+
+    if (pixel_dma_channel < 0)
+        panic("LCD DMA not initialized");
+
+    dma_channel_config config = dma_channel_get_default_config(pixel_dma_channel);
+    channel_config_set_transfer_data_size(&config, DMA_SIZE_16);
+    channel_config_set_read_increment(&config, true);
+    channel_config_set_write_increment(&config, false);
+    channel_config_set_dreq(&config, spi_get_dreq(SPI_PORT, true));
+
+    spi_set_format(SPI_PORT, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    DEV_Digital_Write(LCD_DC_PIN, 1);
+    DEV_Digital_Write(LCD_CS_PIN, 0);
+    pixel_dma_deadline = make_timeout_time_ms(1000);
+    pixel_dma_active = true;
+    dma_channel_configure(pixel_dma_channel, &config, &spi_get_hw(SPI_PORT)->dr,
+                          Pixels, PixelCount, true);
+    return true;
+}
+
+bool LCD_PixelDMAComplete(void)
+{
+    if (!pixel_dma_active)
+        return true;
+
+    if (dma_channel_hw_addr(pixel_dma_channel)->ctrl_trig & DMA_CH0_CTRL_TRIG_AHB_ERROR_BITS)
+        panic("LCD DMA transfer failed");
+
+    if (dma_channel_is_busy(pixel_dma_channel) || spi_is_busy(SPI_PORT))
+    {
+        if (time_reached(pixel_dma_deadline))
+            panic("LCD DMA transfer timed out");
+        return false;
+    }
+
+    while (spi_is_readable(SPI_PORT))
+        (void)spi_get_hw(SPI_PORT)->dr;
+    spi_get_hw(SPI_PORT)->icr = SPI_SSPICR_RORIC_BITS;
+    DEV_Digital_Write(LCD_CS_PIN, 1);
+    spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    pixel_dma_active = false;
+    return true;
 }
 
 /*******************************************************************************

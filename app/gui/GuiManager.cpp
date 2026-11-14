@@ -25,9 +25,12 @@ constexpr int32_t display_height = 320;
 constexpr uint32_t draw_buffer_rows = 20;
 constexpr uint32_t draw_buffer_pixels = display_width * draw_buffer_rows;
 
-static uint16_t draw_buffer[draw_buffer_pixels];
+alignas(LV_DRAW_BUF_ALIGN) static uint16_t draw_buffer[2][draw_buffer_pixels];
+static lv_display_t *active_display = nullptr;
 
 static_assert(LV_COLOR_DEPTH == 16, "The LCD port requires RGB565 color depth");
+static_assert(sizeof(draw_buffer[0]) % LV_DRAW_BUF_ALIGN == 0,
+              "Both draw buffers must satisfy LVGL alignment");
 
 void flush_display(lv_display_t *display, const lv_area_t *area, uint8_t *pixel_map)
 {
@@ -48,12 +51,22 @@ void flush_display(lv_display_t *display, const lv_area_t *area, uint8_t *pixel_
                   static_cast<POINT>(area->y1),
                   static_cast<POINT>(area->x2 + 1),
                   static_cast<POINT>(area->y2 + 1));
-    LCD_WritePixels(reinterpret_cast<const uint16_t *>(pixel_map), pixel_count);
+    if (!LCD_WritePixelsDMA(reinterpret_cast<const uint16_t *>(pixel_map), pixel_count))
+        lv_display_flush_ready(display);
+}
+
+void wait_for_flush(lv_display_t *display)
+{
+    while (!LCD_PixelDMAComplete())
+        FramepadApp::service_usb();
+
     lv_display_flush_ready(display);
 }
 
 void read_touch(lv_indev_t *, lv_indev_data_t *data)
 {
+    // Touch and LCD share SPI; the final flush may outlive lv_timer_handler().
+    wait_for_flush(active_display);
     if (TP_Scan(0))
     {
         data->state = LV_INDEV_STATE_PRESSED;
@@ -75,13 +88,16 @@ void GuiManager::initialize_lvgl_port()
     if (display == nullptr)
         panic("LVGL display allocation failed");
 
+    LCD_InitPixelDMA();
+    active_display = display;
     lv_display_set_default(display);
     lv_display_set_buffers(display,
-                           draw_buffer,
-                           nullptr,
-                           sizeof(draw_buffer),
+                           draw_buffer[0],
+                           draw_buffer[1],
+                           sizeof(draw_buffer[0]),
                            LV_DISPLAY_RENDER_MODE_PARTIAL);
     lv_display_set_flush_cb(display, flush_display);
+    lv_display_set_flush_wait_cb(display, wait_for_flush);
 
     lv_indev_t *touch = lv_indev_create();
     if (touch == nullptr)
@@ -106,6 +122,8 @@ void GuiManager::initialize()
 
 void GuiManager::process()
 {
+    if (LCD_PixelDMAComplete())
+        lv_display_flush_ready(active_display);
     lv_timer_handler();
 }
 

@@ -9,6 +9,7 @@ class FramepadApp
 public:
     static void run();
     static DeviceState& device_state();
+    static void service_usb();
 
 private:
     FramepadApp() = delete;

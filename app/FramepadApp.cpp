@@ -54,11 +54,16 @@ void FramepadApp::initialize_usb()
     tusb_init();
 }
 
-void FramepadApp::process()
+void FramepadApp::service_usb()
 {
     tud_task();
-    led_blinking_task();
     hid_task();
+}
+
+void FramepadApp::process()
+{
+    service_usb();
+    led_blinking_task();
     lcd_task();
     sleep_task();
     GuiManager::process();
