@@ -30,4 +30,6 @@ SET( SOURCES
 )
 
 add_library( GUI ${SOURCES} )
+target_link_libraries(GUI PUBLIC lvgl)
+target_compile_definitions(GUI PRIVATE LV_DIR_HORIZONTAL=LV_DIR_HOR)
 

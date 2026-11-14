@@ -20,6 +20,12 @@ include(pico_sdk_import.cmake)
 project(Pico-ResTouch-X_X_code)
 pico_sdk_init()
 
+set(CONFIG_LV_BUILD_DEMOS OFF CACHE BOOL "" FORCE)
+set(CONFIG_LV_BUILD_EXAMPLES OFF CACHE BOOL "" FORCE)
+set(CONFIG_LV_USE_THORVG_INTERNAL OFF CACHE BOOL "" FORCE)
+add_subdirectory(lvgl)
+add_subdirectory(GUI)
+
 add_subdirectory(examples)
 add_subdirectory(config)
 add_subdirectory(lcd)
@@ -44,6 +50,11 @@ app/main.cpp
 app/FramepadApp.cpp
 app/DeviceState.cpp
 app/UsbCallbacks.cpp
+app/gui/GuiManager.cpp
+app/gui/PageNavigation.cpp
+app/gui/MacroPageController.cpp
+app/gui/SlideshowPageController.cpp
+app/gui/MusicPageController.cpp
 HIDTask.c
 LEDTask.c
 SleepTask.c
@@ -55,6 +66,7 @@ StreamDeck.c
 target_include_directories(main PRIVATE
     ${CMAKE_CURRENT_LIST_DIR}
     ${CMAKE_CURRENT_LIST_DIR}/app
+    ${CMAKE_CURRENT_LIST_DIR}/GUI
 )
 
 # enable usb output, disable uart output
@@ -65,6 +77,8 @@ pico_enable_stdio_uart(main 0)
 pico_add_extra_outputs(main)
 
 target_link_libraries(main PUBLIC 
+lvgl
+GUI
 usb
 fatfs 
 comms

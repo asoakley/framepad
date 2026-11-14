@@ -79,7 +79,7 @@ void LCD_SetGramScanWay(LCD_SCAN_DIR Scan_dir);
 
 void LCD_WriteReg(uint8_t Reg);
 void LCD_WriteData(uint16_t Data);
-
+void LCD_WritePixels(const uint16_t *Pixels, uint32_t PixelCount);
 void LCD_SetWindow(POINT Xstart, POINT Ystart, POINT Xend, POINT Yend);
 void LCD_SetCursor(POINT Xpoint, POINT Ypoint);
 void LCD_SetColor(COLOR Color ,POINT Xpoint, POINT Ypoint);

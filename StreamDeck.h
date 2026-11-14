@@ -40,5 +40,6 @@ void stream_deck_load_config(void);
 void stream_deck_draw_grid(void);
 void stream_deck_handle_touch(uint16_t x, uint16_t y);
 void stream_deck_send_command(const char *command);
+bool stream_deck_activate_icon(uint8_t icon_index);
 
 #endif // STREAMDECK_H

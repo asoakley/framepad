@@ -64,6 +64,28 @@ void LCD_WriteData(uint16_t Data)
     
 }
 
+void LCD_WritePixels(const uint16_t *Pixels, uint32_t PixelCount)
+{
+    if (Pixels == NULL || PixelCount == 0)
+        return;
+
+    DEV_Digital_Write(LCD_DC_PIN, 1);
+    DEV_Digital_Write(LCD_CS_PIN, 0);
+    for (uint32_t i = 0; i < PixelCount; i++)
+    {
+        if (LCD_2_8 == id)
+        {
+            SPI4W_Write_Byte((uint8_t)Pixels[i]);
+        }
+        else
+        {
+            SPI4W_Write_Byte(Pixels[i] >> 8);
+            SPI4W_Write_Byte(Pixels[i] & 0xFF);
+        }
+    }
+    DEV_Digital_Write(LCD_CS_PIN, 1);
+}
+
 /*******************************************************************************
 function:
 		Write register data

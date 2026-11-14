@@ -1,4 +1,5 @@
 #include "FramepadApp.hpp"
+#include "gui/GuiManager.hpp"
 
 extern "C"
 {
@@ -12,7 +13,6 @@ extern "C"
 #include "HIDTask.h"
 #include "LEDTask.h"
 #include "SleepTask.h"
-#include "TouchTask.h"
 #include "LCDTask.h"
 #include "StreamDeck.h"
 }
@@ -45,7 +45,8 @@ void FramepadApp::initialize_hardware()
 
 void FramepadApp::initialize_gui()
 {
-    stream_deck_init();
+    stream_deck_load_config();
+    GuiManager::initialize();
 }
 
 void FramepadApp::initialize_usb()
@@ -57,10 +58,10 @@ void FramepadApp::process()
 {
     tud_task();
     led_blinking_task();
-    touchpad_task();
     hid_task();
     lcd_task();
     sleep_task();
+    GuiManager::process();
 }
 
 void FramepadApp::run()

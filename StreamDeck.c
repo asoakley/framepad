@@ -37,12 +37,14 @@ void stream_deck_load_config(void)
     while (f_gets(line, sizeof(line), &config_file) && icon_index < MAX_ICONS)
     {
         char *image_part = strtok(line, " ");
-        char *command_part = strtok(NULL, "\n");
+        char *command_part = strtok(NULL, "\r\n");
 
         if (image_part && command_part)
         {
             strncpy(stream_deck_config.icons[icon_index].image_filename, image_part, MAX_IMAGE_FILENAME_LENGTH - 1);
+            stream_deck_config.icons[icon_index].image_filename[MAX_IMAGE_FILENAME_LENGTH - 1] = '\0';
             strncpy(stream_deck_config.icons[icon_index].command, command_part, MAX_COMMAND_LENGTH - 1);
+            stream_deck_config.icons[icon_index].command[MAX_COMMAND_LENGTH - 1] = '\0';
 
             // Calculate centered position for square icon
             uint8_t row = icon_index / GRID_COLS;
@@ -152,6 +154,18 @@ void stream_deck_handle_touch(uint16_t x, uint16_t y)
 void stream_deck_send_command(const char *command)
 {
     hid_send_command(command);
+}
+
+bool stream_deck_activate_icon(uint8_t icon_index)
+{
+    if (icon_index >= stream_deck_config.num_icons ||
+        !stream_deck_config.icons[icon_index].active)
+    {
+        return false;
+    }
+
+    stream_deck_send_command(stream_deck_config.icons[icon_index].command);
+    return true;
 }
 
 void stream_deck_init(void)
