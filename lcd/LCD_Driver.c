@@ -16,11 +16,14 @@
 #include "LCD_Driver.h"
 #include "hardware/dma.h"
 
+#define LCD_PIXEL_SPI_BAUDRATE 31250000u
+
 LCD_DIS sLCD_DIS;
 uint8_t id;
 static int pixel_dma_channel = -1;
 static bool pixel_dma_active = false;
 static absolute_time_t pixel_dma_deadline;
+static uint32_t pixel_dma_previous_baudrate;
 /*******************************************************************************
 function:
 	Hardware reset
@@ -123,6 +126,8 @@ bool LCD_WritePixelsDMA(const uint16_t *Pixels, uint32_t PixelCount)
     channel_config_set_write_increment(&config, false);
     channel_config_set_dreq(&config, spi_get_dreq(SPI_PORT, true));
 
+    pixel_dma_previous_baudrate = spi_get_baudrate(SPI_PORT);
+    spi_set_baudrate(SPI_PORT, LCD_PIXEL_SPI_BAUDRATE);
     spi_set_format(SPI_PORT, 16, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
     DEV_Digital_Write(LCD_DC_PIN, 1);
     DEV_Digital_Write(LCD_CS_PIN, 0);
@@ -153,6 +158,7 @@ bool LCD_PixelDMAComplete(void)
     spi_get_hw(SPI_PORT)->icr = SPI_SSPICR_RORIC_BITS;
     DEV_Digital_Write(LCD_CS_PIN, 1);
     spi_set_format(SPI_PORT, 8, SPI_CPOL_0, SPI_CPHA_0, SPI_MSB_FIRST);
+    spi_set_baudrate(SPI_PORT, pixel_dma_previous_baudrate);
     pixel_dma_active = false;
     return true;
 }
